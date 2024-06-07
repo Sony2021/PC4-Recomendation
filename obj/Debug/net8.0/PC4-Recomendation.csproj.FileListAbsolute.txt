@@ -136,3 +136,4 @@ C:\Users\Sony\Desktop\codigoVS\PC4-Recomendation\obj\Debug\net8.0\refint\PC4-Rec
 C:\Users\Sony\Desktop\codigoVS\PC4-Recomendation\obj\Debug\net8.0\PC4-Recomendation.pdb
 C:\Users\Sony\Desktop\codigoVS\PC4-Recomendation\obj\Debug\net8.0\PC4-Recomendation.genruntimeconfig.cache
 C:\Users\Sony\Desktop\codigoVS\PC4-Recomendation\obj\Debug\net8.0\ref\PC4-Recomendation.dll
+C:\Users\Sony\Desktop\codigoVS\PC4-Recomendation\obj\Debug\net8.0\PC4-Recomendation.sourcelink.json
