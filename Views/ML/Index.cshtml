@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Análisis de Recomendaciones";
+    var ratings = ViewData["ratings"] as List<(int productoId, float normalizedScore)>;
+    var productos = ViewData["productos"] as List<PC4_Recomendation.Models.Producto>;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-controller="ML" asp-action="Predict" method="post">
+    <div class="form-group">
+        <label for="id">Escribe el Id del usuario</label>
+        <input type="text" class="form-control" id="id" name="id" />
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+@if (ratings != null && productos != null)
+{
+    <h2>Recomendaciones</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Puntuación</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rating in ratings)
+            {
+                var producto = productos.FirstOrDefault(p => p.ProductoId == rating.productoId);
+                if (producto != null)
+                {
+                    <tr>
+                        <td>@producto.ProductoNombre</td>
+                        <td>@rating.normalizedScore</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+}
