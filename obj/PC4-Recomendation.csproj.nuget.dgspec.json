@@ -81,6 +81,10 @@
             "Microsoft.ML.Recommender": {
               "target": "Package",
               "version": "[0.20.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
