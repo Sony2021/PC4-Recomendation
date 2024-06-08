@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PC4-Recomendation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+037779a950bbac5a1e58b5df3fb6704974402592")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec6d995dc661991419f452fbbef2a225f57c0cd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("PC4-Recomendation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PC4-Recomendation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

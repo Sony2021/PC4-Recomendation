@@ -11,7 +11,7 @@ using PC4_Recomendation.Service;
 
 namespace PC4_Recomendation.Controllers
 {
-    [Route("[controller]")]
+  
     public class MLController : Controller
     {
         private readonly ILogger<MLController> _logger;
